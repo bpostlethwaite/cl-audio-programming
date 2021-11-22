@@ -1,4 +1,6 @@
-(in-package :cl-audio-programming)
+(in-package :audio)
+(named-readtables:in-readtable :sc)
+
 ;; https://github.com/SCLOrkHub/SCLOrkSynths/blob/master/SynthDefs/bass/acidOto3091.scd
 ;; TODO - len 4 Curve arrays, see src
 (defsynth acid-Oto309
